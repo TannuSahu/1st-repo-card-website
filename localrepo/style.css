@@ -1,11 +1,88 @@
-p{
-    background-color: rgb(252, 109, 216);
-    color: rgb(43, 94, 114);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* height: 100%; */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #477194;/*gradient color */
+    background: linear-gradient(5deg, rgb(117, 181, 201) 100%, rgba(253, 45, 90, 1) 100%);;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+    min-height: 85vh;
+    border-radius: 5%;
+    background-color: #e9eef0;
+    gap: 5%;
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.textbox {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    height: 300px;
-    width: 600px;
-    align-content: center;
-    font-size: 40px;
-    margin-left: 150px;
-    margin-top: 50px;
+    gap: 10px;
+    padding: 10px;
+}
+.textbox p{
+    font-size: 0.7rem;
+}
+.subDiv{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(146, 171, 219);
+    width: 90%;
+    border-radius: 5%;
+    margin: 3%;
+}
+.annualdiv img{
+    border-radius: 50%;
+    height: 79%;
+    width: 19%;
+    margin: 3%;
+}
+.annual-p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2%;
+}
+.annualdiv{
+    display: flex;
+    flex-direction: row;
+    font-size: 70%;
+}
+.subDiv a{
+    font-size: 70%;
+    display: flex;
+    justify-content: center;
+    padding-right: 5%;
+    flex-direction: column;
+}
+#buttan{
+   width: 90%;
+   height: 10%;
+   background-color: rgb(33, 33, 49);
+   color: azure;
+   border-radius: 6px;
+   margin-top: 2%;
+   margin-bottom: 5%;
+   font-size: 70%;
+   box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.40);
+}
+.anchor a{
+    text-decoration: none;
+    color: rgb(58, 58, 71);
+    font-weight: bold;
 }
